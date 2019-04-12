@@ -6,9 +6,9 @@ pipelines:
       backend:
         git: https://github.com/lbrown314/github-gitlabCI.git
         branch: master
-      CommitPhasePassed:
-        pipeline: Backend_CommitPhase
-        stage: Push_To_Registry
+      #CommitPhasePassed:
+      #  pipeline: Backend_CommitPhase
+      #  stage: Push_To_Registry
     stages:
       - Deploy:
           clean_workspace: true
