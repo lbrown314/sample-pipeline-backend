@@ -4,7 +4,7 @@ pipelines:
     group: SamplePipeline
     materials:
       backend:
-        git: http://git-repo:3000/gocd/backend.git
+        git: https://github.com/lbrown314/github-gitlabCI.git
         branch: master
     stages:
       - Build:
