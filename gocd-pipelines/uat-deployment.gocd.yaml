@@ -6,9 +6,9 @@ pipelines:
       backend:
         git: https://github.com/lbrown314/github-gitlabCI.git
         branch: master
-      SystemTestsPassed:
-        pipeline: System_Tests
-        stage: Approve
+      #SystemTestsPassed:
+      #  pipeline: System_Tests
+      #  stage: Approve
     stages:
       - Deploy:
           clean_workspace: true
